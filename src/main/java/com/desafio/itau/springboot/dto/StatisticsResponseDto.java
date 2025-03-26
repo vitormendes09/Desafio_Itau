@@ -2,7 +2,7 @@ package com.desafio.itau.springboot.dto;
 
 import java.util.DoubleSummaryStatistics;
 
-import com.desafio.itau.springboot.contracts.IStatisticsReponse;
+import com.desafio.itau.springboot.contracts.imodels.IStatisticsReponse;
 
 public class StatisticsResponseDto implements IStatisticsReponse {
 

@@ -1,8 +1,8 @@
-package com.desafio.itau.springboot.contracts;
+package com.desafio.itau.springboot.contracts.imodels;
 
 public interface IStatisticsReponse {
 
-    
+
     double getSum();
     double getAvg();
     double getMax();

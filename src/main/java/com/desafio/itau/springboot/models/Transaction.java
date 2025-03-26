@@ -2,7 +2,7 @@ package com.desafio.itau.springboot.models;
 
 import java.time.OffsetDateTime;
 
-import com.desafio.itau.springboot.contracts.ITransaction;
+import com.desafio.itau.springboot.contracts.imodels.ITransaction;
 
 public class Transaction implements ITransaction {
         private double amount;

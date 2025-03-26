@@ -2,8 +2,7 @@ package com.desafio.itau.springboot.dto;
 
 import java.time.OffsetDateTime;
 
-import com.desafio.itau.springboot.contracts.ITransaction;
-
+import com.desafio.itau.springboot.contracts.imodels.ITransaction;
 
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotNull;

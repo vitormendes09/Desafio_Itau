@@ -1,4 +1,4 @@
-package com.desafio.itau.springboot.contracts;
+package com.desafio.itau.springboot.contracts.imodels;
 
 import java.time.OffsetDateTime;
 
