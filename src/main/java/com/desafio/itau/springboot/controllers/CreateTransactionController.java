@@ -20,11 +20,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 @RestController
 @RequestMapping("/transacao")
-public class ICreateTransaction implements ICreateTransactionController {
+public class CreateTransactionController implements ICreateTransactionController {
     
     private final IAddTransactionUseCase iAddTransactionUseCase;
 
-    public ICreateTransaction(IAddTransactionUseCase iAddTransactionUseCase){
+    public CreateTransactionController(IAddTransactionUseCase iAddTransactionUseCase){
         this.iAddTransactionUseCase = iAddTransactionUseCase;
     }
 
