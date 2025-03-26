@@ -1,0 +1,22 @@
+### Teste de criação de transação (POST)
+POST http://localhost:8080/transacao
+Content-Type: application/json
+
+{
+  "amount": 100.50,
+  "date": "2025-03-26T12:00:00Z"
+}
+
+### Teste de falha ao criar transação com data futura (POST)
+POST http://localhost:8080/transacao
+Content-Type: application/json
+
+{
+  "amount": 200.00,
+  "date": "2030-01-01T12:00:00Z"
+}
+
+
+
+### Teste de deleção de transações (DELETE)
+DELETE http://localhost:8080/transacao
