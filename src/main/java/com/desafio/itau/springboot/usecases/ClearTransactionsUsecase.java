@@ -10,7 +10,6 @@ public class ClearTransactionsUsecase implements IClearTransactionsUsecase{
 
     private final Queue<ITransaction> transactions = new ConcurrentLinkedQueue<>();
 
-    @Override
     public void clearTransactions() {
        transactions.clear();
     }
