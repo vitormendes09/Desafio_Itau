@@ -9,7 +9,7 @@ import com.desafio.itau.springboot.contracts.imodels.ITransaction;
 import com.desafio.itau.springboot.contracts.iusecase.IAddTransactionUseCase;
 
 @Service
-public class AddTransactionService implements IAddTransactionUseCase {
+public class AddTransactionUseCase implements IAddTransactionUseCase {
 
     private final Queue<ITransaction> transactions = new ConcurrentLinkedQueue<>();
 
