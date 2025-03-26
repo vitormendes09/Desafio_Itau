@@ -5,8 +5,6 @@ import java.time.OffsetDateTime;
 import com.desafio.itau.springboot.contracts.ITransaction;
 
 public class Transaction implements ITransaction {
-
-   
         private double amount;
         private OffsetDateTime date;
     
