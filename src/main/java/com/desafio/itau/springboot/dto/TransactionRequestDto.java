@@ -8,7 +8,7 @@ import com.desafio.itau.springboot.contracts.ITransaction;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotNull;
 
-public class transactionRequest implements ITransaction{
+public class TransactionRequestDto implements ITransaction{
     
     @NotNull
     @Min(0)
