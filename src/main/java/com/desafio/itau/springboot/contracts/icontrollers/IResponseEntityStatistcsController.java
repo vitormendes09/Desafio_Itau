@@ -2,9 +2,10 @@ package com.desafio.itau.springboot.contracts.icontrollers;
 
 import org.springframework.http.ResponseEntity;
 
-import com.desafio.itau.springboot.contracts.imodels.IStatisticsReponse;
+
+import com.desafio.itau.springboot.models.StatisticsResponse;
 
 public interface IResponseEntityStatistcsController {
     
-    ResponseEntity<IStatisticsReponse> getStatistics();
+    ResponseEntity<StatisticsResponse> getStatistics();
 }

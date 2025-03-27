@@ -20,3 +20,8 @@ Content-Type: application/json
 
 ### Teste de deleção de transações (DELETE)
 DELETE http://localhost:8080/transacao
+
+
+### GET Estatísticas
+GET http://localhost:8080/estatistica
+Accept: application/json
